@@ -20,7 +20,7 @@ def make_autopct(ratings):
         total = sum(ratings)
         val = int(round(pct * total/100.0))
         if val != 0:
-            return '({v:d})\nVotes'.format(v = val)
+            return '{v:d}\nVotes'.format(v = val)
     return values
 
 
